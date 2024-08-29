@@ -44,3 +44,15 @@ body{
     font-size: larger;
     font-weight: 500;
 }
+
+#container{
+    width: 600px;
+    height: 300px;
+    border: 0px solid ;
+    border-radius: 5px;
+    border-color: black;
+    align-items: center;
+    margin-left: 23rem;
+    background-color: rgb(246, 72, 235);
+
+}

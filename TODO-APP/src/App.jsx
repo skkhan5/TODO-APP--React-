@@ -79,6 +79,7 @@ const App = () => {
   }
   return (
     <>
+    <div id='container'>
       <h1>"TODO-APP"</h1>
       <form onSubmit={addTodo}>
         <input id='input' type="text" placeholder='Enter Todo value' ref={todoVal} />
@@ -93,6 +94,7 @@ const App = () => {
           </div>
         }) : <p>No TODO Found!</p>}
       </ol>
+      </div>
 
     </>
   )
